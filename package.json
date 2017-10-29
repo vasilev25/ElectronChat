@@ -1,0 +1,32 @@
+{
+  "build": {
+    "appId": "app.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+
+
+  "author": "Penko Vasilev",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "simple-peer": "^8.1.1"
+  },
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-builder": "^19.42.2"
+  },
+
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "Test App",
+  "main": "main.js",
+  "scripts": {
+    "start" : "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  }
+ 
+}
