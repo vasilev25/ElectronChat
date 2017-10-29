@@ -2,7 +2,7 @@ var peer = new Peer({
     key: 'h74d0sopbxk73nmi',
     config: {'iceServers': [
         { url: 'stun:stun.l.google.com:19302' },
-        { url: 'turn:numb.viagenie.ca', credential: '663896', username: 'pvdev95@gmail.com' }
+        { url: 'turn:numb.viagenie.ca', credential: 'dadsadasda', username: 'adsaddadda' }
     ]}
 });
 let conn;
