@@ -1,5 +1,5 @@
 var peer = new Peer({
-    key: 'h74d0sopbxk73nmi',
+    key: 'dasdasdaa',
     config: {'iceServers': [
         { url: 'stun:stun.l.google.com:19302' },
         { url: 'turn:numb.viagenie.ca', credential: 'dadsadasda', username: 'adsaddadda' }
